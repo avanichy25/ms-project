@@ -20,7 +20,7 @@ steps:
     SonarCloud: 'azure-sonarcloud'
     organization: 'dev-organization25'
     scannerMode: 'MSBuild'
-    projectKey: 'Agile-project'
+    projectKey: 'dev-organization25_agile-project'
     projectName: 'Agile-project'
 
 - task: NuGetToolInstaller@1
