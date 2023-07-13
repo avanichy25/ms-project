@@ -22,6 +22,10 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'Agile-project'
 
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: '6.0'
+
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
